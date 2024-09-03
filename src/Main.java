@@ -25,7 +25,7 @@ public class Main {
         // Cria o frame
         JFrame frame = new JFrame("Files Generator");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(300, 200);
+        frame.setSize(300, 100);
         frame.setLayout(new java.awt.FlowLayout());
 
         // Cria o seletor de pasta
@@ -166,3 +166,5 @@ public class Main {
         frame.setVisible(true);
     }
 }
+
+
